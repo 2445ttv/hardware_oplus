@@ -1,3 +1,7 @@
 # Allow passthrough charge interface to be adjusted by a system app
 allow system_app vendor_sysfs_usb_supply:dir r_dir_perms;
 allow system_app vendor_sysfs_usb_supply:file rw_file_perms;
+
+# OnePlus Settings
+allow system_app vendor_sysfs_graphics:dir search;
+allow system_app vendor_sysfs_dc_dimming:file rw_file_perms;

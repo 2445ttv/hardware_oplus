@@ -48,6 +48,9 @@ type proc_tms_logger, fs_type, proc_type;
 # NVRAM
 type nvram_socket, file_type;
 
+# OnePlus Settings
+type vendor_sysfs_dc_dimming, fs_type, sysfs_type;
+
 # Olog
 type vendor_olog_file, file_type, data_file_type;
 
